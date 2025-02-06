@@ -1,0 +1,71 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "TestDb2App/1.0.0": {
+        "dependencies": {
+          "Net.IBM.Data.Db2": "9.0.0.100",
+          "System.Data.Odbc": "9.0.1"
+        },
+        "runtime": {
+          "TestDb2App.dll": {}
+        }
+      },
+      "Net.IBM.Data.Db2/9.0.0.100": {
+        "runtime": {
+          "lib/net9.0/IBM.Data.Db2.dll": {
+            "assemblyVersion": "9.0.0.100",
+            "fileVersion": "9.0.0.100"
+          }
+        }
+      },
+      "System.Data.Odbc/9.0.1": {
+        "runtime": {
+          "lib/net9.0/System.Data.Odbc.dll": {
+            "assemblyVersion": "9.0.0.1",
+            "fileVersion": "9.0.124.61010"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/net9.0/System.Data.Odbc.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "9.0.0.1",
+            "fileVersion": "9.0.124.61010"
+          },
+          "runtimes/win/lib/net9.0/System.Data.Odbc.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "9.0.0.1",
+            "fileVersion": "9.0.124.61010"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TestDb2App/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Net.IBM.Data.Db2/9.0.0.100": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TjaSQR53TptbCqQO3b9Zk0uxL3BTzyPfq4V+/a9x6nW85JwiEcaX5zvUCMGCLrlRwyH19t6WAh4YiuV+ev9KjQ==",
+      "path": "net.ibm.data.db2/9.0.0.100",
+      "hashPath": "net.ibm.data.db2.9.0.0.100.nupkg.sha512"
+    },
+    "System.Data.Odbc/9.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-J6pspjthfveu+Zg75tfRpsH3PggtpMiuirXtem2n7sJ2FDR+V0pQC6AZVJR5w7etnux2pqbwxGLVQjF/wdZdzQ==",
+      "path": "system.data.odbc/9.0.1",
+      "hashPath": "system.data.odbc.9.0.1.nupkg.sha512"
+    }
+  }
+}

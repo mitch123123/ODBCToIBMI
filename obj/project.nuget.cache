@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "BLezRqM+oiQ=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mjfiedler\\source\\repos\\ODBCToIBMI\\TestDb2App.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mjfiedler\\.nuget\\packages\\net.ibm.data.db2\\9.0.0.100\\net.ibm.data.db2.9.0.0.100.nupkg.sha512",
+    "C:\\Users\\mjfiedler\\.nuget\\packages\\system.data.odbc\\9.0.1\\system.data.odbc.9.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
